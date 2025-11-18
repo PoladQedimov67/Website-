@@ -1,11 +1,10 @@
 <!doctype html>
+
 <html lang="az">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>E-commerce</title>
-
-  <!-- Font və CSS bağlantısı -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,10 +17,7 @@
       <p>Summer Sale – Free Express Delivery — <a href="#">Shop Now</a></p>
       <div class="lang">English ▾</div>
     </div>
-  </div>
-
-  <!-- Başlıq -->
-  <header class="container header">
+  </div>  <!-- Başlıq -->  <header class="container header">
     <a class="logo" href="#">Exclusive</a>
     <nav class="nav">
       <a href="#">Home</a>
@@ -38,9 +34,7 @@
       <a href="#" class="icon" aria-label="Cart">🛒</a>
       <a href="#" class="icon" aria-label="Hesab">👤</a>
     </div>
-  </header>
-
-  <main class="container">
+  </header>  <main class="container">
     <!-- Sol menyu + Hero -->
     <section class="hero-wrap">
       <aside class="side">
@@ -65,67 +59,70 @@
         </div>
         <img src="assets/hero.jpg" alt="Hero" class="hero-img">
       </div>
-    </section>
+    </section><!-- Əlavə edilmiş şəkil bölməsi -->
+<section class="section">
+  <h2>Yeni əlavə edilən şəkil</h2>
+  <img src="assets/extra-image.jpg" alt="Əlavə şəkil" style="width:100%; border-radius:12px; margin-top:12px;">
+</section>
 
-    <!-- Flash Sales -->
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <div class="tag"><span></span> Today’s</div>
-          <h2>Flash Sales</h2>
-        </div>
-        <div class="timer">
-          <div><strong>03</strong><small>Saat</small></div>
-          <div><strong>23</strong><small>Gün</small></div>
-          <div><strong>19</strong><small>Dəqiqə</small></div>
-          <div><strong>56</strong><small>Saniyə</small></div>
-        </div>
-      </div>
-      <div class="grid">
-        <article class="card">
-          <a class="thumb" href="#"><img src="assets/product-01.jpg" alt=""></a>
-          <h3>Məhsul 01</h3>
-          <p class="price"><b>₼ 59</b> <s>₼ 89</s></p>
-          <button class="btn btn-sm">Səbətə at</button>
-        </article>
-        <article class="card">
-          <a class="thumb" href="#"><img src="assets/product-02.jpg" alt=""></a>
-          <h3>Məhsul 02</h3>
-          <p class="price"><b>₼ 120</b> <s>₼ 150</s></p>
-          <button class="btn btn-sm">Səbətə at</button>
-        </article>
-        <article class="card">
-          <a class="thumb" href="#"><img src="assets/product-03.jpg" alt=""></a>
-          <h3>Məhsul 03</h3>
-          <p class="price"><b>₼ 199</b> <s>₼ 229</s></p>
-          <button class="btn btn-sm">Səbətə at</button>
-        </article>
-        <article class="card">
-          <a class="thumb" href="#"><img src="assets/product-04.jpg" alt=""></a>
-          <h3>Məhsul 04</h3>
-          <p class="price"><b>₼ 79</b> <s>₼ 99</s></p>
-          <button class="btn btn-sm">Səbətə at</button>
-        </article>
-      </div>
-      <div class="center"><a class="btn btn-ghost" href="#">View All Products</a></div>
-    </section>
+<!-- Flash Sales -->
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="tag"><span></span> Today’s</div>
+      <h2>Flash Sales</h2>
+    </div>
+    <div class="timer">
+      <div><strong>03</strong><small>Saat</small></div>
+      <div><strong>23</strong><small>Gün</small></div>
+      <div><strong>19</strong><small>Dəqiqə</small></div>
+      <div><strong>56</strong><small>Saniyə</small></div>
+    </div>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <a class="thumb" href="#"><img src="assets/product-01.jpg" alt=""></a>
+      <h3>Məhsul 01</h3>
+      <p class="price"><b>₼ 59</b> <s>₼ 89</s></p>
+      <button class="btn btn-sm">Səbətə at</button>
+    </article>
+    <article class="card">
+      <a class="thumb" href="#"><img src="assets/product-02.jpg" alt=""></a>
+      <h3>Məhsul 02</h3>
+      <p class="price"><b>₼ 120</b> <s>₼ 150</s></p>
+      <button class="btn btn-sm">Səbətə at</button>
+    </article>
+    <article class="card">
+      <a class="thumb" href="#"><img src="assets/product-03.jpg" alt=""></a>
+      <h3>Məhsul 03</h3>
+      <p class="price"><b>₼ 199</b> <s>₼ 229</s></p>
+      <button class="btn btn-sm">Səbətə at</button>
+    </article>
+    <article class="card">
+      <a class="thumb" href="#"><img src="assets/product-04.jpg" alt=""></a>
+      <h3>Məhsul 04</h3>
+      <p class="price"><b>₼ 79</b> <s>₼ 99</s></p>
+      <button class="btn btn-sm">Səbətə at</button>
+    </article>
+  </div>
+  <div class="center"><a class="btn btn-ghost" href="#">View All Products</a></div>
+</section>
 
-    <!-- Kateqoriyalar -->
-    <section class="section">
-      <div class="tag"><span></span> Categories</div>
-      <h2>Browse By Category</h2>
-      <div class="cat-grid">
-        <div class="cat"><img src="assets/cat-01.svg" alt=""><span>Phones</span></div>
-        <div class="cat"><img src="assets/cat-02.svg" alt=""><span>Computers</span></div>
-        <div class="cat"><img src="assets/cat-03.svg" alt=""><span>SmartWatch</span></div>
-        <div class="cat"><img src="assets/cat-04.svg" alt=""><span>Camera</span></div>
-        <div class="cat"><img src="assets/cat-05.svg" alt=""><span>Headphones</span></div>
-        <div class="cat"><img src="assets/cat-06.svg" alt=""><span>Gaming</span></div>
-      </div>
-    </section>
-  </main>
+<!-- Kateqoriyalar -->
+<section class="section">
+  <div class="tag"><span></span> Categories</div>
+  <h2>Browse By Category</h2>
+  <div class="cat-grid">
+    <div class="cat"><img src="assets/cat-01.svg" alt=""><span>Phones</span></div>
+    <div class="cat"><img src="assets/cat-02.svg" alt=""><span>Computers</span></div>
+    <div class="cat"><img src="assets/cat-03.svg" alt=""><span>SmartWatch</span></div>
+    <div class="cat"><img src="assets/cat-04.svg" alt=""><span>Camera</span></div>
+    <div class="cat"><img src="assets/cat-05.svg" alt=""><span>Headphones</span></div>
+    <div class="cat"><img src="assets/cat-06.svg" alt=""><span>Gaming</span></div>
+  </div>
+</section>
 
-  <footer class="footer">
+  </main>  <footer class="footer">
     <div class="container">
       <div class="foot-grid">
         <div>
